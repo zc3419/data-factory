@@ -1,0 +1,18 @@
+{
+	"name": "Pipeline_copydataTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adls/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/0c519741-23e5-4848-b378-0ffd09299f38/resourceGroups/ResourceGroup1/providers/Microsoft.Storage/storageAccounts/demonicstorageaccount",
+			"events": [
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
+			]
+		}
+	}
+}
