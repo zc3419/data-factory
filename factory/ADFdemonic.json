@@ -1,0 +1,9 @@
+{
+	"name": "ADFdemonic",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abd5fd1a-accf-4f3b-b471-533db111ebe1",
+		"tenantId": "cf4244e5-14dc-4f24-b8f9-6223ad7ec9e5"
+	}
+}
