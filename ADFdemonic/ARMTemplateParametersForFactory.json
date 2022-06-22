@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFdemonic"
+		},
+		"AzureBlobStorageconnection1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlServer_connectionString": {
+			"value": ""
+		},
+		"CosmosDb1_connectionString": {
+			"value": ""
+		},
+		"SqlServerconnection_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://demonicstorageaccount.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://Keyvaultdemonic.vault.azure.net/"
+		},
+		"Pipeline_copydataTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/0c519741-23e5-4848-b378-0ffd09299f38/resourceGroups/ResourceGroup1/providers/Microsoft.Storage/storageAccounts/demonicstorageaccount"
+		},
+		"Trigger_copydata_properties_typeProperties_scope": {
+			"value": "/subscriptions/0c519741-23e5-4848-b378-0ffd09299f38/resourceGroups/ResourceGroup1/providers/Microsoft.Storage/storageAccounts/demonicstorageaccount"
+		}
+	}
+}
